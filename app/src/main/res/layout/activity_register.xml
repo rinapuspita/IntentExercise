@@ -38,6 +38,7 @@
 
             <ImageView
                 android:id="@+id/imageView"
+                android:onClick="handleAvatar"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 app:layout_constraintBottom_toBottomOf="@+id/image_profile"
@@ -177,6 +178,7 @@
 
     <Button
         android:id="@+id/button_ok"
+        android:onClick="handleReg"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
